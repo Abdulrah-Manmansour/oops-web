@@ -748,8 +748,35 @@ footer {
         height: 190px;
     }
   }
+.flexbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
+.ddbtn1{
+    transform: translateX(10px);
+    margin-bottom: 20px;
+}
+.ddbtn{
+    transform: translateX(10px);
+    margin-bottom: 20px;
+}
+.ddbtn8{
+    transform: translateX(10px);
+    margin-bottom: 20px;
+}
+.ddbtn2{
+    transform: translateX(1px);
+    margin-bottom: 20px;
+}
+.ddbtn9{
+    transform: translateX(3px);
+    margin-bottom: 20px;
+}
+.inputs{
+    left: 60px;
+}
+}
 @media(max-width:968px) {
     .home {
         .info-home {
@@ -857,6 +884,24 @@ footer {
             }
         }
     }
+  .choice{
+     .icon-car {
+        width: 130px;
+        height: 130px;
+    }
+    .icon-phone{
+        width: 130px;
+        height: 130px;
+    }
+    .icon-build{
+        width: 130px;
+        height: 130px;
+    }
+    .icon-clothes{
+        width: 130px;
+        height: 130px;
+    }
+  }
 }
 
 @media(max-width:654px) {

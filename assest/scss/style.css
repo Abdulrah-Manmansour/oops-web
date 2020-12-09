@@ -786,6 +786,45 @@ footer .item3 .andriod div span {
     width: 190px;
     height: 190px;
   }
+  .flexbtn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .ddbtn1 {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
+    margin-bottom: 20px;
+  }
+  .ddbtn {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
+    margin-bottom: 20px;
+  }
+  .ddbtn8 {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
+    margin-bottom: 20px;
+  }
+  .ddbtn2 {
+    -webkit-transform: translateX(1px);
+            transform: translateX(1px);
+    margin-bottom: 20px;
+  }
+  .ddbtn9 {
+    -webkit-transform: translateX(3px);
+            transform: translateX(3px);
+    margin-bottom: 20px;
+  }
+  .inputs {
+    left: 60px;
+  }
 }
 
 @media (max-width: 968px) {
@@ -856,6 +895,22 @@ footer .item3 .andriod div span {
 @media (max-width: 699px) {
   .home .info-home .image-shopping {
     right: 260px;
+  }
+  .choice .icon-car {
+    width: 130px;
+    height: 130px;
+  }
+  .choice .icon-phone {
+    width: 130px;
+    height: 130px;
+  }
+  .choice .icon-build {
+    width: 130px;
+    height: 130px;
+  }
+  .choice .icon-clothes {
+    width: 130px;
+    height: 130px;
   }
 }
 
