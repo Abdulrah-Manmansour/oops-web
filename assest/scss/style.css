@@ -912,6 +912,21 @@ footer .item3 .andriod div span {
     width: 130px;
     height: 130px;
   }
+  .ddbtn1 {
+    -webkit-transform: translateX(1px);
+            transform: translateX(1px);
+    margin-bottom: 20px;
+  }
+  .ddbtn {
+    -webkit-transform: translateX(1px);
+            transform: translateX(1px);
+    margin-bottom: 20px;
+  }
+  .ddbtn8 {
+    -webkit-transform: translateX(1px);
+            transform: translateX(1px);
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 654px) {

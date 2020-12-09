@@ -776,6 +776,7 @@ footer {
 .inputs{
     left: 60px;
 }
+
 }
 @media(max-width:968px) {
     .home {
@@ -902,6 +903,18 @@ footer {
         height: 130px;
     }
   }
+  .ddbtn1{
+    transform: translateX(1px);
+    margin-bottom: 20px;
+}
+.ddbtn{
+    transform: translateX(1px);
+    margin-bottom: 20px;
+}
+.ddbtn8{
+    transform: translateX(1px);
+    margin-bottom: 20px;
+}
 }
 
 @media(max-width:654px) {
