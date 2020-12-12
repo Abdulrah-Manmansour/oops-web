@@ -3,6 +3,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: "Cairo", sans-serif;
 }
 
 /*=====start section home=====*/
@@ -383,6 +384,10 @@ input[type="checkbox"]:checked::after {
 }
 
 /*======end section add========*/
+.none {
+  display: none;
+}
+
 /*============start footer======*/
 footer {
   background: url(../images/12.png);

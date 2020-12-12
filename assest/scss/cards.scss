@@ -359,6 +359,23 @@ color: $color-icon;
 ::-webkit-scrollbar{
     width: 0;
 }
+
+.page-item:first-child .page-link {
+    margin-right: 0;
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+    margin-left: 7px;
+    background: $colorbutton;
+    color:$color-icon;
+    border-radius: 13px;
+}
+.page-link:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    background: $colorbutton;
+    border-radius: 13px;
+    color: $color-icon;
+    margin-left: 7px;
+}
 /*=====end section cards======*/
 /*============start footer======*/
 footer{

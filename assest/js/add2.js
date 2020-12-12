@@ -73,4 +73,15 @@ $(document).ready(function(){
     $("#error8").fadeOut();
   }
     });
+    setTimeout(function(){
+      $(".loader-bg").fadeToggle()
+      },1000)
+     $(".select-car").change(function(){
+     if($(this).val()=='1'){
+      $(".none").fadeIn(1000)
+     }
+     else{
+       $(".none").fadeOut();
+     }
+     });
 });

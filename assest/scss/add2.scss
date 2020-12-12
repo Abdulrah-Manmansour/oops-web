@@ -26,6 +26,7 @@ $redcolor:#f00;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: $font-google;
 }
 /*=====start section home=====*/
 .home{
@@ -102,7 +103,7 @@ opacity: 0;
     content: '';
     position: absolute;
     border: 10px solid transparent;
-border-top: 0;
+    border-top: 0;
 right: 10px;
 top: -10px;
 border-bottom-color: #fff;
@@ -346,6 +347,9 @@ input[type="checkbox"]:checked::after{
     display: block;
 }
 /*======end section add========*/
+.none{
+    display: none;
+}
 /*============start footer======*/
 footer{
     background: url(../images/12.png);

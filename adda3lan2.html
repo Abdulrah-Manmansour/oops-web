@@ -61,12 +61,12 @@
                        </div>
                        <div class="text-center">  <label for="">صنف إعلانك</label></div>
                        <div class="select mb-2">
-                        <select name="format" id="format"  class="">
+                        <select name="format" id="format"  class="select-car">
                           <option selected disabled></option>
-                          <option value="B+">سيارات</option>
-                          <option value="A+">الموضة</option>
-                          <option value="AB+">موبايبلات</option>
-                          <option value="O-">عقارات</option>
+                          <option value="1">سيارات</option>
+                          <option value="2">الموضة</option>
+                          <option value="3">موبايبلات</option>
+                          <option value="4">عقارات</option>
                         </select>
                       </div>
                       <div class="form-group mb-2">
@@ -85,9 +85,8 @@
                           
                         </select>
                       </div>
-                      <div class="text-center">  <label for=""> طريقة الدفع</label></div>
-                      <div class="select mb-2">
-                      
+                      <div class="text-center none">  <label for="">موديل السيارة</label></div>
+                      <div class="select mb-2 none">
                         <select name="format" id="format"  class="">
                             <option selected disabled >الموديل</option>
                           <option value=" BMW ">BMW</option>
@@ -95,8 +94,8 @@
                           <option value="KiA">kIA</option>
                         </select>
                       </div>
-                      <div class="text-center">  <label for=""> طريقة الدفع</label></div>
-                      <div class="select mb-2">
+                      <div class="text-center none">  <label for="">سنة الصنع</label></div>
+                      <div class="select mb-2 none">
                         <select name="format" id="format"  class="">
                             <option selected disabled >السنة</option>
                           <option value=" 2020 ">2020</option>
@@ -105,27 +104,27 @@
                           <option value="2017">2017</option>
                         </select>
                       </div>
-                      <div class="form-group mb-2">
+                      <div class="form-group mb-2 none">
                         <div class="text-center">  <label for=""> كيلومترات</label></div>
                           <input type="number" class="form-control " id="input3" >
                           <div class="alert alert-danger col-5 " id="error3">هذا الحقل مطلوب</div>
                       </div>
-                      <div class="text-center">  <label for=""> ناقل الحركة </label></div>
-                      <div class="select mb-2">
+                      <div class="text-center none">  <label for=""> ناقل الحركة </label></div>
+                      <div class="select mb-2 none">
                         <select name="format" id="format"  class="">
                             <option >مانيوال</option>
                           <option value=" اوتوماتيك ">اوتوماتيك</option>
                         </select>
                       </div>
                      
-                           <div class="text-center">  <label for=""> الحالة </label></div>
-                           <div class="select mb-4">
+                           <div class="text-center none">  <label for=""> الحالة </label></div>
+                           <div class="select mb-4 none">
                              <select name="format" id="format"  class="">
                                  <option >مستمعل</option>
                                <option value=" جديد ">جديد</option>
                              </select>
                            </div>
-                           <div class="more-things">
+                           <div class="more-things none">
                                <h6>اضافات:</h6>
                                <div class="  box" >
                                  <div class="item1">
@@ -285,9 +284,4 @@ integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZD
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="assest/js/add2.js"></script>
 </body>
-<script>
-  setTimeout(function(){
-$(".loader-bg").fadeToggle()
-},1000)
-</script>
 </html>
